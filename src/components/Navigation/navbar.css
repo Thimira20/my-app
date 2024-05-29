@@ -39,6 +39,7 @@
 
 .logo {
   font-size: 35px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin-left: 10px;
   font-weight: bold;
   color: white;
@@ -72,11 +73,14 @@
   align-items: center;
   justify-content: space-between;
   margin-left: 20px;
+  margin-top: 4px;
 }
 
 .navBarIcon {
   margin: 10px;
   cursor: pointer;
+  position: relative;
+  display: inline-block;
 }
 
 .navBarLinks {
@@ -91,19 +95,11 @@
 }
 
 .iconTag {
-  width: 15px;
-  height: 15px;
-  font-size: 15px;
-  background-color: red;
-  color: white;
   position: absolute;
+  top: -9px;
+  right: -10px;
+  padding: 2px 7px;
   border-radius: 50%;
-  justify-content: center;
-}
-
-.tag {
-  width: 15px;
-  height: 15px;
-  font-size: 15px;
-  justify-content: center;
+  background: red;
+  color: white;
 }

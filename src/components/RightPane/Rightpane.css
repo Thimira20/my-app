@@ -1,0 +1,69 @@
+.rightPaneBox {
+  flex: 3;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+  position: sticky;
+  top: 50px;
+}
+
+.rightpaneContainer {
+  padding: 20px 20px 0 0;
+}
+
+.adConatiner {
+  margin-top: 10px;
+  font-family: sans-serif;
+}
+
+.sponsered {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sponceredImg {
+  width: 95%;
+}
+
+.addText {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.birthdayContainer {
+  display: flex;
+  align-items: center;
+}
+
+.onlineFriend {
+  padding: 0;
+  margin: 0;
+  margin-top: 15px;
+  list-style: none;
+  align-items: center;
+  display: flex;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.onlineFrienIMg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.onlineFriendContainer {
+  display: flex;
+}
+
+.onlineStatus {
+  height: 12px;
+  width: 12px;
+  position: relative;
+  border-radius: 50%;
+  background: rgb(15, 230, 61);
+  top: 25px;
+  right: 2px;
+  border: 2px solid white;
+}
